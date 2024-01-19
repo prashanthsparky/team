@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,500;1,600&display=swap');
+
+.navbar-logo{
+    height: 50px;
+    
+}
+.pra-body{
+    height: 300vh;
+    background-image: url('https://res.cloudinary.com/nihars3/image/upload/v1696232927/photo-1619429858348-2d5ad1547e6c_nnvynb.jpg');
+}
+.item-nav{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item:hover{
+    color: rgb(55, 174, 55);
+}
+.anchor{
+    margin-left: auto;
+}
+
+
+:root{
+    --primary: #065dfb;
+    --light: #fff;
+    --warning: #f06804;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/******Carousel CSS****/
+
+.hero{
+    width: 100%;
+}
+.hero .carousel-item img{
+height: 668px;
+width: 100%;
+background-size: cover!important;
+background-position: center;
+background-repeat: no-repeat;
+}
+.hero .carousel-item::before{
+    content: '';
+    background-color: #040f28;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .8;
+}
+.hero .carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+}
+.hero .carousel-container-container{
+    text-align: center;
+    color: var(--light);
+}
+.hero .carousel-container-container h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+
+}
+.hero .carousel-container-container p{
+    width: 70%;
+    font-size: 14px;
+    margin: 0 auto 30px auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.buttons .button1{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 12px 30px;
+    line-height: 1;
+    margin: 10px 10px;
+    color: var(--light);
+    border: 1px solid var(--light);
+    border-radius: 50px;
+}
+
+@media(max-width:768px)
+{
+    .hero .carousel-container-container{
+        text-align: center;
+        color: var(--light);
+    }
+    .hero .carousel-container-container h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    
+    }
+    .hero .carousel-container-container p{
+        
+        font-size: 13px;
+        font-family: 'Montserrat', sans-serif;
+       
+        
+    }
+    .buttons .button1{
+        font-size: 13px;
+        display: inline-block;
+        padding: 9px 30px;
+       
+    }
+   
+}
+
+/*********Products*******/
+
+.products{
+    padding: 50px;
+    text-align: center;
+}
+.prod-h1{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(55, 194, 55);
+    letter-spacing: 2px;
+}
+.products-sub-cont{
+    display: flex;
+    flex-direction: row;
+    
+}
+.product-card{
+    border: rgb(71, 217, 71) solid 2px;
+    margin: 20px;
+    width: 400px;
+}
+.pd-h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.pd-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(232, 233, 232);
+}
+
+
+
+/******pricing*****/
+
+.pricing{
+    padding: 50px;
+    text-align: center;
+}
+
+/******same as follows product styling*****/
+
+
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: rgb(232, 233, 232);
+}
+.social-icon-img{
+    height: 30px;
+}
